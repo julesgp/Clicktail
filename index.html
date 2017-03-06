@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clicktail</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- media queries  -->
+	<link href="https://fonts.googleapis.com/css?family=Asul:700|Diplomata+SC|Gravitas+One|Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="mainWrapper">
+		<!-- T I T L E  -->
+		<header>
+			<div class="title">
+				<h1> C L I C K T A I L </h1>
+			</div> <!-- End of title -->
+		</header>
+		
+		<!-- F I L T E R S -->
+		<nav class = "filters">
+			<div class="alcohols">
+				<div class="alcohols-title">
+					<h3> A l c o h o l </h3>
+				</div><!-- End of alcohol-title -->
+				<div class="alcohols-options">
+					<input type="button" value="R U M" id="rum" name="rum">
+					<input type="button" value="G I N" id="gin" name="gin">
+					<input type="button" value="Whisky" id="whisky" name="whisky">
+					<input type="button" value="Vodka" id="vodka" name="vodka">
+				</div> <!-- End of alcohol-options -->
+			</div><!-- End of alcohols -->
+
+			<div class="flavours">
+				<div class="flavours-title">
+					<h3> F l a v o u r s </h3>
+				</div><!-- End of flavours-title -->
+				<div class="flavours-options">
+					<input type="button" value="Sweet"
+					id="sweet" name="sweet">
+					<input type="button" value="Bitter"
+					id="bitter" name="bitter">
+					<input type="button" value="Sour"
+					id="sour" name="sour">
+				</div><!-- End of flavours-options -->
+			</div><!-- End of flavours -->
+
+			<div class="difficulty">
+				<div class="difficulty-title">
+					<h3>D i f f i c u l t y</h3>
+				</div><!-- End of difficulty-title -->
+				<div class="difficulty-options">
+					<input type="button" value="Amateaur" id="amateaur" name="amateaur">
+					<input type="button" value="Alright" id="alright" name="alright">
+					<input type="button" value="Pro"
+					id="pro" name="pro">
+				</div><!-- End of difficulty-options -->
+			</div><!-- End of difficulty -->
+
+			<div class="coolness">
+				<div class="coolness-title">
+					<h3>(-)   C o o l n e s s   (+)</h3>
+				</div><!-- End of coolness-title -->
+				<div class="coolness-options">
+					<input type="range" min="1" max="50" id="coolness">
+				</div><!-- End of coolness-options -->
+			</div><!-- End of coolness -->
+		</nav>
+		
+		<!-- C O N T E N T -->
+		<main class="mainContent">
+			<input type="submit" value="Let's find it!" id="submit">
+		</main>
+	</div> <!-- End of mainWrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="clicktail.js"></script>
+</body>
+</html>
